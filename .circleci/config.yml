@@ -1,0 +1,21 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: cimg/python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Install Cookiecutter
+          command: |
+            pip install cookiecutter
+      - run:
+          name: Generate a new package
+          command: |
+            cookiecutter --no-input --default-config .
+
+workflows:
+  build:
+    jobs:
+      - test
