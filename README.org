@@ -1,0 +1,32 @@
+#+TITLE: Emacs Package Template
+
+This is a [[https://github.com/cookiecutter/cookiecutter][Cookiecutter]] template for [[https://emacs.org][Emacs]] packages.
+
+It is very opinionated, and as such does not provide any toggles for
+functionality.
+
+* Features/Opinions
+
+- Simple README scaffold with status badges
+- Hosted on GitHub
+- GPLv3, not a big fan myself but this is GNU Emacs after all
+- Tests with ERT on CircleCI on several recent Emacs versions
+- Setup for MELPA
+
+* Use
+
+Install [[https://github.com/cookiecutter/cookiecutter][Cookiecutter]] in some way, for example
+
+#+begin_src sh
+pip3 install cookiecutter
+#+end_src
+
+You can run directly from GitHub:
+
+#+begin_src sh
+cookiecutter gh:sulami/emacs-package-template
+#+end_src
+
+You will be prompted for some values to fill into the template.
+
+Refer to [[https://cookiecutter.readthedocs.io/en/latest/][the Cookiecutter docs]] for more information.

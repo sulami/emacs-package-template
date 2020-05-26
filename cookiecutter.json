@@ -1,0 +1,8 @@
+{
+    "project_slug": "batman-mode",
+    "name": "Batman Mode",
+    "author": "Bruce Wayne",
+    "username": "batman",
+    "description": "Catches criminals.",
+    "command": "batman-mode"
+}

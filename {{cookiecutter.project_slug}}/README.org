@@ -1,0 +1,38 @@
+#+TITLE: {{cookiecutter.name}}
+
+[[https://melpa.org/#/{{cookiecutter.project_slug}}][file:https://melpa.org/packages/{{cookiecutter.project_slug}}-badge.svg]]
+[[https://app.circleci.com/pipelines/github/{{cookiecutter.username}}/{{cookiecutter.project_slug}}][file:https://circleci.com/gh/{{cookiecutter.username}}/{{cookiecutter.project_slug}}.svg?style=svg]]
+
+{{cookiecutter.description}}
+
+* Installing
+
+Simply grab it from [[https://melpa.org/][MELPA]].
+
+** [[https://github.com/jwiegley/use-package][use-package]]
+
+#+begin_src emacs-lisp
+(use-package {{cookiecutter.project_slug}}
+  :ensure t)
+#+end_src
+
+** [[https://github.com/raxod502/straight.el][straight.el]]
+
+#+begin_src emacs-lisp
+(straight-use-package '{{cookiecutter.project_slug}})
+#+end_src
+
+** package.el
+
+[[https://melpa.org/#/getting-started][Ensure you have MELPA available.]]
+
+=M-x package-install RET {{cookiecutter.project_slug}} RET=.
+
+** Manual
+
+Just fetch [[file:{{cookiecutter.project_slug}}.el][{{cookiecutter.project_slug}}.el]], save it somewhere and load it into
+Emacs.
+
+* Use
+
+Just =M-x {{cookiecutter.command}} RET=.
