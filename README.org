@@ -1,5 +1,7 @@
 #+TITLE: Emacs Package Template
 
+[[https://app.circleci.com/pipelines/github/sulami/emacs-package-template][file:https://circleci.com/gh/sulami/emacs-package-template.svg?style=svg]]
+
 This is a [[https://github.com/cookiecutter/cookiecutter][Cookiecutter]] template for [[https://emacs.org][Emacs]] packages.
 
 It is very opinionated, and as such does not provide any toggles for
