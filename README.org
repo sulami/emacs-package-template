@@ -14,6 +14,7 @@ functionality.
 - GPLv3, not a big fan myself but this is GNU Emacs after all
 - Tests with ERT on CircleCI on several recent Emacs versions
 - Setup for MELPA
+- Dependencies installed with straight
 
 * Use
 
