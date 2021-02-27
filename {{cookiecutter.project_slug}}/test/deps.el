@@ -35,6 +35,7 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
+(straight-use-package 'ert-junit)
 ;;; TODO Place dependencies here.
 
 ;;; deps.el ends here
